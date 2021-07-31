@@ -1,0 +1,11 @@
+.form-logo-box {
+  height: 30%;
+  width: 100%;
+
+  text-align: center;
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,41 @@
+.user-info {
+  padding-bottom: 5rem;
+
+  @include flex-column;
+
+  .profile-picture {
+    &--img {
+      width: 100%;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+  }
+
+  &__box {
+    @include flex-row;
+
+    width: 100%;
+    height: 5rem;
+
+    padding: 4rem;
+    &--title {
+      @include flex-row;
+
+      width: 100%;
+      height: 5rem;
+      position: relative;
+
+      padding: 3rem;
+    }
+    span {
+      display: block;
+    }
+  }
+  &__name {
+    display: inline-block;
+  }
+  &__icon {
+    position: absolute;
+    right: 1rem;
+  }
+}

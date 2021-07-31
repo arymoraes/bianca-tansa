@@ -1,0 +1,49 @@
+.tasks-list {
+
+  padding: 2rem;
+  &__add-task {
+    min-height: 5rem;
+
+    display: flex;
+    align-items: flex-start;
+
+    padding-top: 1rem;
+
+    span {
+      padding-left: 2rem;
+    }
+  }
+
+  &__list {
+
+  }
+
+  &__task {
+    min-height: 5rem;
+
+    display: flex;
+    align-items: flex-start;
+
+    border-bottom: 1px solid grey;
+
+    padding-top: 1rem;
+    &--title{
+      padding-left: 2rem;
+    }
+    &--icon{
+
+    }
+  }
+
+  .completed {
+    &--text{
+      text-decoration: line-through;
+    }
+    &--icon{
+      color: green;
+    }
+  }
+  .uncompleted {
+
+  }
+}

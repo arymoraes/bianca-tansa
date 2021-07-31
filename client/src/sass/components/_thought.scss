@@ -1,0 +1,46 @@
+.thought {
+  padding: 2rem;
+  height: 30vh;
+
+  &__display{
+    position: relative;
+    display: flex;
+
+    height: 100%;
+    padding-right: 3rem;
+
+    &--icon {
+      position: absolute;
+      right: .5rem;
+      top: .5rem;
+    }
+  }
+
+  &__edit-wrapper {
+    position: relative;
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    
+  }
+
+  &__edit-form {
+    background-color: blue;
+    width: 100%;
+    textarea {
+      height: 100%;
+      width: 100%;
+      padding: 1rem 3rem 0 1rem;
+      resize: none;
+    }
+    &--btn{
+      background-color: white;
+      border: none;
+      position: absolute;
+      right: .5rem;
+      bottom: .5rem;
+    }
+  }
+}

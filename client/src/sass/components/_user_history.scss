@@ -1,0 +1,14 @@
+.user-history {
+  &__year {
+    background-color: blueviolet;
+    padding: 2rem;
+    &-title {
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .list-header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
