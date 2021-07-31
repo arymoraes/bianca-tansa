@@ -1,0 +1,67 @@
+.sign-up {
+  background-color: $background-light;
+
+  width: 85vw;
+  padding: 2rem;
+  border-radius: 2rem;
+
+  @include flex-column;
+
+  &__form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+  &__title {
+    padding-bottom: 2rem;
+  }
+
+  &__input-box {
+    label {
+      display: block;
+      padding-bottom: 1rem;
+    }
+    .sign-up__icon-input-box {
+      height: 4rem;
+      margin-bottom: 1rem;
+
+      display: flex;
+      justify-content: center;
+
+      .sign-up__input-icon {
+        height: 100%;
+        font-size: 3rem;
+        padding-left: 1rem;
+
+        background-color: $haby-light-blue;
+
+        border-radius: 1rem 0 0 1rem;
+      }
+
+      input {
+        background-color: $haby-light-blue;
+        border-radius: 0 1rem 1rem 0;
+        border: none;
+
+        padding-left: 1rem;
+      }
+    }
+  }
+  .reset-password-link {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  &__btn {
+    font-size: 3rem;
+    height: 4rem;
+    width: 35%;
+  }
+  .sign-up-link {
+    padding: 2rem;
+  }
+}

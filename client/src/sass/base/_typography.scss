@@ -1,0 +1,112 @@
+.btn {
+  color: $font-color-light;
+}
+
+.sign-in {
+  color: $font-color-dark;
+  &__title {
+    font-size: 3.6rem;
+  }
+  &__input-box {
+    color: $font-color-light;
+    label {
+      color: $font-color-dark;
+      font-size: 2.2rem;
+    }
+    input {
+      color: $font-color-light;
+      font-size: 1.5rem;
+    }
+  }
+  .reset-password-link {
+    font-size: 1.3rem;
+    color: $font-color-dark;
+  }
+  .sign-up-link {
+    font-size: 1.8rem;
+    color: $font-color-dark;
+  }
+}
+
+.sign-up {
+  color: $font-color-dark;
+  &__title {
+    font-size: 3.6rem;
+  }
+  &__input-box {
+    color: $font-color-light;
+    label {
+      color: $font-color-dark;
+      font-size: 2.2rem;
+    }
+    input {
+      color: $font-color-light;
+      font-size: 1.5rem;
+    }
+  }
+  .sign-in-link {
+    font-size: 1.8rem;
+    color: $font-color-dark;
+  }
+}
+
+.user-info {
+  color: $font-color-dark;
+  &__name {
+    font-size: 3rem;
+  }
+  &__icon {
+    font-size: 3rem;
+  }
+  &__box {
+    font-size: 2rem;
+  }
+}
+
+.page-title {
+  text-align: center;
+  &__title {
+    font-size: 3.5rem;
+    color: $font-color-dark;
+  }
+}
+
+.user-history {
+  &__year {
+    &-title {
+      font-size: 2rem;
+    }
+  }
+}
+
+.obj-info{
+  color: $font-color-dark;
+}
+
+.tasks-list {
+  &__add-task {
+    font-size: 1.8rem;
+  }
+  &__task {
+    font-size: 2.5rem;
+  }
+}
+
+.thought {
+  font-size: 2.5rem;
+  &__edit-wrapper {
+    font-size: 2.5rem;
+    &--icon {
+      font-size: 2.5rem;
+    }
+  }
+  &__edit-form {
+    font-size: 2.5rem;
+    textarea {
+      font-size: 2rem;
+    }
+    &--icon {
+      font-size: 2.5rem;
+    }
+  }
+}

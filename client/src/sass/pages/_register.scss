@@ -1,0 +1,10 @@
+.register {
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: $haby-color;
+
+  padding-bottom: 4rem;
+
+  @include flex-column;
+}

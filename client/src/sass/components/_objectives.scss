@@ -1,0 +1,22 @@
+.objectives {
+  &__type-box {
+    height: 5rem;
+    width: 100%;
+  }
+
+  &__toggle-type-btn {
+    border: none;
+    border-bottom: 1px solid $font-color-dark;
+    height: 100%;
+    width: 25%;
+    &:not(:last-child) {
+      border-right: 1px solid $font-color-dark;
+    }
+  }
+  .selected {
+    background-color: $haby-medium-blue;
+  }
+  .unselected {
+    background-color: $haby-light-blue;
+  }
+}
